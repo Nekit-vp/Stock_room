@@ -1,3 +1,18 @@
+# Stock Room
+
+A JavaFX desktop application for warehouse inventory. It models items, storage locations and staff workflows, including inventory search and shipments. The original project report includes screenshots and use cases.
+
+## Open the project
+
+Import [`pom.xml`](pom.xml) into your IDE. Configure a JDK and JavaFX runtime, and prepare a PostgreSQL database matching the schema described below. Set the database connection for your development environment before launching `sample.Main`.
+
+Start with the inventory search or stock registration screen to see the main workflow. For a demo, use a separate database with sample inventory.
+
+[Project screenshots](picture) · [Java source](src/main/java/sample)
+
+<details>
+<summary>Original project notes</summary>
+
 ﻿# Введение
 
 `	`Целью данной курсовой работы была автоматизация складского учета. Склад – это здание или сооружение, предназначенное для приема, размещения и хранения, поступивших на него товаров, подготовки их к потреблению и отправки потребителю. С быстрым увеличением объемов хранилища, а также с усложнением процессов в нынешнее время, простой складской учет не может обеспечить нормальную деятельность склада и поэтому требует автоматизации. 
@@ -453,3 +468,4 @@ Users.txt – текстовый файл, который хранит всю и
 
 PAGE   \\* MERGEFORMAT20
 
+</details>
